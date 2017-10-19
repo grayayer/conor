@@ -8,3 +8,33 @@ License: This WordPress theme is comprised of two parts: (1) The PHP code and in
 Template: dt-the7
 */
 
+
+
+/*** NAVIGATION MENU ***/
+
+/* social media icons */
+.from-centre-line > li.social > a .menu-item-text:before{
+	display: none;
+}
+
+.main-nav > li.social > a {
+    margin: 18px 0;
+}
+
+/* donate button */
+.main-nav > li.menu_donate_button:not(.wpml-ls-item) > a .menu-text {
+    background: #638C37;
+    color: #FFF !important;
+    font-weight: 300;
+    padding: 10px 20px 8px;
+    border-radius: 5px;
+transition: all ease-in-out 100ms;
+}
+
+.main-nav > li.menu_donate_button:not(.wpml-ls-item) > a .menu-text:hover {
+background:#507029;
+}
+
+.main-nav > li.menu_donate_button:not(.wpml-ls-item) > a:hover span.menu-item-text:before {
+display:none;
+}
